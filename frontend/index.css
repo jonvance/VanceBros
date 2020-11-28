@@ -1,0 +1,22 @@
+.jumbotron{
+    background-image: url('https://g.foolcdn.com/editorial/images/602383/stock-up-glowing-green-arrow-climbs-on-a-stock-screen.jpg');
+    background-size: cover; 
+    text-shadow: 2px 2px 5px red;
+    color: white;
+    font-family: Gadget;
+    
+}
+
+.card{
+    margin: 5vh 10vw;
+}
+
+.card-header{
+    background-color: gray;
+    background-image: linear-gradient(to bottom right, green, black);
+    color: white;
+    font-family: Gadget;
+    padding: 1vh;
+    font-size: 3vh;
+    text-align: center;
+}

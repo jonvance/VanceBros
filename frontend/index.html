@@ -6,30 +6,53 @@
     <title>VanceBros</title>
 
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <link rel="stylesheet" href="index.css">
 
 </head>
 <body>
-    <div class="jumbotron text-white" style="background-image: url('https://g.foolcdn.com/editorial/images/602383/stock-up-glowing-green-arrow-climbs-on-a-stock-screen.jpg');background-size: cover;">
+    <div class="jumbotron">
         <h1 class="display-4">VanceBros Stock App</h1>
     </div>
 
-    <div class="card my-3 mx-5">
+    <div class="card">
         <div class="card-header">
             Stocks Invested In
         </div>
 
         <div class="card-body">
             <p>Place lists of stocks here</p>
+
+            <table class="table">
+                <thead class="thead">
+                  <tr>
+                    <th scope="col">Stock Name</th>
+                    <th scope="col">Curr Price</th>
+                    <th scope="col">Net Gain</th>
+                  </tr>
+                </thead>
+                <div id="stocks-invested-in-data"></div>
+            </table>
         </div>
     </div>
 
-    <div class="card my-3 mx-5">
+    <div class="card">
         <div class="card-header">
             Stocks To Watch
         </div>
 
         <div class="card-body">
             <p>Place lists of stocks here</p>
+
+            <table class="table">
+                <thead class="thead">
+                  <tr>
+                    <th scope="col">Stock Name</th>
+                    <th scope="col">Curr Price</th>
+                    <th scope="col">Net Gain</th>
+                  </tr>
+                </thead>
+                <div id="stocks-invested-in-data"></div>
+            </table>
         </div>
     </div>
 
